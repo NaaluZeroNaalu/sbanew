@@ -137,6 +137,13 @@ function Header(){
               >
                 Contact
               </a>
+              <a
+                  id="request"
+                  href="#"
+                  className="text-white btn btn-outline-danger shadow-xs hover:bg-red-700 hover:text-white px-5 py-2 rounded-md text-sm font-medium no-underline"
+                >
+                  Request a Demo
+                </a>
             </div>
           </div>
         )}

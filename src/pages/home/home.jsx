@@ -8,10 +8,10 @@ function Home(){
 
         <>
 
-        {/* SECTION ONE START */}
-        <br /><br />
+{/* SECTION ONE START */}
+<br /><br />
 <div className="section1">
-  <h1 className="text-white text-center display-4">Automate The Mundane</h1>
+  <h1 className="text-white text-center display-4"><b>Automate The Mundane</b></h1>
   <h3 className="text-white text-center mb-4">Elevate The Human Potential</h3>
   <br />
   <div className="text-center">
@@ -141,6 +141,63 @@ function Home(){
   </div>
 </div>
 {/* SECTION FIVE END */}
+
+<br /><br />
+
+{/* SECTION SIX START */}
+
+<section class="bg-gray-100 py-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-gray-800 mb-6">Contact Us</h2>
+    <p class="text-lg text-gray-600 mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
+    
+    <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <form>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label for="name" class="text-gray-700">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="Your Name" 
+              class="w-full p-4 rounded-lg border-gray-300 shadow-sm"
+            />
+          </div>
+          <div>
+            <label for="email" class="text-gray-700">Email Address</label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Your Email" 
+              class="w-full p-4 rounded-lg border-gray-300 shadow-sm"
+            />
+          </div>
+        </div>
+        
+        <div class="mt-6">
+          <label for="message" class="text-gray-700">Your Message</label>
+          <textarea 
+            id="message" 
+            rows="5" 
+            placeholder="Your Message" 
+            class="w-full p-4 rounded-lg border-gray-300 shadow-sm"
+          ></textarea>
+        </div>
+        
+        <div class="mt-6 text-center">
+          <button 
+            type="submit" 
+            class="btn btn-primary btn-lg"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+{/* SECTION SIX END */}
 
 <br /><br />
 
