@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+  /* background-image: url('../src/assets/bg.png'); */
+  background-color: black;
+  background-size: cover;
+}
+
+#navbar{
+    
+  background: rgba(76, 175, 79, 0);
+
+}
+
+#navbar a{
+
+  padding-right: 140px;
+  text-decoration: none !important;
+}
+
+.transparent-box {
+  background-color: rgba(88, 86, 86, 0.308);  /* Transparent black background */
+}
+
