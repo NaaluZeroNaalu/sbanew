@@ -1,5 +1,12 @@
 import ibm from "../..//assets/partners/ibm.png"
 import redhat from "../..//assets/partners/redhat.png"
+import trendmicro from "../..//assets/trusted_partners/trendmicro.png"
+import hitachi from "../..//assets/trusted_partners/hitachi.png"
+import netapp from "../..//assets/trusted_partners/netapp.png"
+import paloalto from "../..//assets/trusted_partners/paloalto.png"
+import crowdstrike from "../..//assets/trusted_partners/crowdstrike.png"
+import commvault from "../..//assets/trusted_partners/commvault.png"
+import vmware from "../../assets/trusted_partners/vmware.png"
 
 
 function Home(){
@@ -65,11 +72,27 @@ function Home(){
     <div className="scrolling-companies">
       <div className="d-flex justify-content-around align-items-center">
         {/* You can replace these with actual logos of companies */}
-        <div className="company-logo">Logo 1</div>
-        <div className="company-logo">Logo 2</div>
-        <div className="company-logo">Logo 3</div>
-        <div className="company-logo">Logo 4</div>
-        <div className="company-logo">Logo 5</div>
+        <div className="company-logo">
+          <img src={trendmicro} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={hitachi} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={crowdstrike} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={commvault} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={netapp} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={paloalto} alt="" />
+        </div>
+        <div className="company-logo">
+          <img src={vmware} alt="" />
+        </div>
       </div>
     </div>
   </div>

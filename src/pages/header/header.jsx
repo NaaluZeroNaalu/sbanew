@@ -55,6 +55,7 @@ function Header(){
                   >
                     What we do
                   </a>
+                  <br /><br />
                   <div className="absolute left-0 hidden group-hover:block bg-gray-700 text-white p-2 rounded-md shadow-md">
                     <a href="#" className="block px-3 py-2">Submenu 1</a>
                     <a href="#" className="block px-3 py-2">Submenu 2</a>
