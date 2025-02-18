@@ -56,7 +56,7 @@ function Header(){
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
@@ -73,7 +73,7 @@ function Header(){
             </a>
           </div>
         </div>
-      )}
+      )} */}
     </nav>
         </>
     )
