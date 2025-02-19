@@ -1,25 +1,28 @@
 import section1 from "./ss.gif"
+import bg from "./bg.png"
 
 function ItandAutomation(){
 
     return(
         <>
-{/* SECTION ONE START */}
-        <div className="container mx-auto px-4 py-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div className="text-center md:text-left">
-                    <h1 className="text-3xl font-bold text-danger mb-4">
-                    IT Automation
-                      </h1>
-                      <h4 className="text-xl text-white">
-                      Empower Your Operations
-                      </h4>
-                    </div>
-                    <div className="flex justify-center md:justify-end">
-                      <img src={section1} alt="AI Solutions" className="w-full sm:w-72 md:w-80 lg:w-96 object-contain" />
-                </div>
-            </div>
+<br /><br />
+  <section style={{backgroundImage:`url(${bg})`,backgroundSize:"fit",backgroundPosition:"center"}}>
+      <div className="container mx-auto px-4 py-8" >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="text-center md:text-left">
+            <h1 className="text-3xl font-bold text-white mb-4">
+            IT Automation
+            </h1>
+            <h4 className="text-xl text-white">
+            Empower Your Operations
+            </h4>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <img src={section1} alt="AI Solutions" className="w-full sm:w-72 md:w-80 lg:w-96 object-contain" />
+          </div>
         </div>
+      </div>
+      </section>
 {/* SECTION ONE END */}
 
 {/* SECTION THREE START */}

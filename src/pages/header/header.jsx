@@ -7,6 +7,8 @@ import dataandai from "../../assets/headericons/data_and_ai.svg"
 import itautomation from "../../assets/headericons/itautomation.svg"
 import openhybridcloud from "../../assets/headericons/openhybridcloud.svg"
 import securityandsustainability from "../../assets/headericons/securityandsustainability.svg"
+import aboutus from "../../assets/headericons/aboutus.svg"
+import leadership from "../../assets/headericons/leadership.svg"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,12 +35,14 @@ function Header() {
                   <button className="text-white   hover:text-white px-3 py-3 rounded-md text-sm font-medium">
                     Who We Are
                   </button>
-                  <br />
-            
-                  <div className="absolute hidden group-hover:block bg-white/50 backdrop-blur-md  text-black shadow-md rounded-md w-40">
-                    <a href="#" className="block px-4 py-2">About Us</a>
-                    <a href="#" className="block px-4 py-2">Team</a>
-                  </div>
+                  <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black shadow-md rounded-md w-60">
+                    <a href="/Aboutus" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
+                    <img src={aboutus} alt="Data and AI" height={50} width={50} className="mr-2" />About Us</a>
+                    <a href="/IT-And-Automation" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
+                    <img src={leadership} alt="IT and Business Automation" height={50} width={50} className="mr-2" />
+                    Leadership
+                   </a>
+                   </div>
                 </div>
 
                 {/* What We Do Dropdown */}

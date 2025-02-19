@@ -5,6 +5,7 @@ import { GiArtificialIntelligence } from "react-icons/gi";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import dataandai from "./Group.svg"
 import brochure from "./data-ai-brochure.pdf"
+import bg from "./2.png"
 
 
 function DatandAi(){
@@ -14,10 +15,11 @@ function DatandAi(){
         <>
         <br /><br />
 {/* SECTION ONE START */}
-<div className="container mx-auto px-4 py-8">
+<section style={{backgroundImage:`url(${bg})`,backgroundSize:"fit",backgroundPosition:"center"}}>
+<div className="container mx-auto px-4 py-8" >
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div className="text-center md:text-left">
-      <h1 className="text-3xl font-bold text-danger mb-4">
+      <h1 className="text-3xl font-bold text-white mb-4">
         Empower Your Business With
       </h1>
       <h4 className="text-xl text-white">
@@ -29,6 +31,7 @@ function DatandAi(){
     </div>
   </div>
 </div>
+</section>
 {/* SECTION ONE END */}
 
 

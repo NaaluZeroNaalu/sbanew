@@ -1,26 +1,31 @@
 import section1 from "./section1.gif"
+import bg from "./bg.png"
 
 function OpendhybridCloud(){
 
     return(
 
         <>
-        {/* SECTION ONE START */}
-                <div className="container mx-auto px-4 py-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <div className="text-center md:text-left">
-                            <h1 className="text-3xl font-bold text-danger mb-4">
-                            Open Hybrid Cloud
-                              </h1>
-                              <h4 className="text-xl text-white">
-                              Integrated Cloud Services
-                              </h4>
-                            </div>
-                            <div className="flex justify-center md:justify-end">
-                              <img src={section1} alt="AI Solutions" className="w-full sm:w-72 md:w-80 lg:w-96 object-contain" />
-                        </div>
-                    </div>
-                </div>
+
+{/* SECTION ONE START */}
+    <br /><br />
+      <section style={{backgroundImage:`url(${bg})`,backgroundSize:"fit",backgroundPosition:"center"}}>
+          <div className="container mx-auto px-4 py-8" >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="text-center md:text-left">
+                <h1 className="text-3xl font-bold text-white mb-4">
+                Open Hybrid Cloud
+                </h1>
+                <h4 className="text-xl text-white">
+                Integrated Cloud Services
+                </h4>
+              </div>
+              <div className="flex justify-center md:justify-end">
+                <img src={section1} alt="AI Solutions" className="w-full sm:w-72 md:w-80 lg:w-96 object-contain" />
+              </div>
+            </div>
+          </div>
+    </section>
         {/* SECTION ONE END */}
 
         {/* SECTION THREE START */}
