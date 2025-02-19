@@ -34,7 +34,7 @@ function Home(){
 <div className="flex flex-wrap justify-center gap-4 p-4">
       {/* Box 1 */}
       <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
-        <h2 className="text-xl font-semibold text-center mb-4 text-danger">MISSSION</h2>
+        <h2 className="text-xl font-semibold text-center mb-4 text-danger">MISSION</h2>
         <p className="text-center text-white">To be the transformative force that shapes an agile, purposeful future of work on a global scale</p>
       </div>
 

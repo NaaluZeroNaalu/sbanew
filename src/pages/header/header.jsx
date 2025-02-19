@@ -3,42 +3,74 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { useState } from "react";
 import sba from "../../assets/sbalogo.png"
+import dataandai from "../../assets/headericons/data_and_ai.svg"
+import itautomation from "../../assets/headericons/itautomation.svg"
+import openhybridcloud from "../../assets/headericons/openhybridcloud.svg"
+import securityandsustainability from "../../assets/headericons/securityandsustainability.svg"
 
-function Header(){
-
-
+function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-
-    return(
-
-        <>
+  return (
+    <>
       <br />
       <br />
       <nav className="bg-white/30 backdrop-blur-md fixed w-full top-0 left-0 z-10 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <a href="#" className="text-2xl font-bold text-white">
+              <a href="/" className="text-2xl font-bold text-white">
                 <img src={sba} height={50} width={50} alt="" />
               </a>
             </div>
             {/* Desktop Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
+                {/* Who We Are Dropdown */}
+                <div className="relative group">
+                  <button className="text-white   hover:text-white px-3 py-3 rounded-md text-sm font-medium">
+                    Who We Are
+                  </button>
+                  <br />
+            
+                  <div className="absolute hidden group-hover:block bg-white/50 backdrop-blur-md  text-black shadow-md rounded-md w-40">
+                    <a href="#" className="block px-4 py-2">About Us</a>
+                    <a href="#" className="block px-4 py-2">Team</a>
+                  </div>
+                </div>
+
+                {/* What We Do Dropdown */}
+                <div className="relative group">
+                  <button className="text-white hover:text-white px-3 py-3 rounded-md text-sm font-medium">
+                    Our Solutions
+                  </button>
+                  <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black shadow-md rounded-md w-80">
+    <a href="/Data-and-Ai" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
+      <img src={dataandai} alt="Data and AI" height={50} width={50} className="mr-2" />
+      Data and AI
+    </a>
+    <a href="/IT-And-Automation" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none",borderBottom:"1px solid white"}}>
+      <img src={itautomation} alt="IT and Business Automation" height={50} width={50} className="mr-2" />
+      IT and Business Automation
+    </a>
+    <a href="/Open-Hybrid-Cloud" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none" , borderBottom:"1px solid white"}}>
+      <img src={openhybridcloud} alt="Open Hybrid Cloud" height={50} width={50} className="mr-2" />
+      Open Hybrid Cloud
+    </a>
+    <a href="/Security-And-Sustainability" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
+      <img src={securityandsustainability} alt="Security and Sustainability" height={50} width={50} className="mr-2" />
+      Security and Sustainability
+    </a>
+  </div>
+</div>
+
+
+                {/* Other Menu Items */}
+               
                 <a href="#" className="text-white hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
-                  Home
-                </a>
-                <a href="#" className="text-white hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
-                  About
-                </a>
-                <a href="#" className="text-white hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
-                  Services
-                </a>
-                <a href="#" className="text-white hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
-                  Contact
+                  Careers
                 </a>
                 <a href="#" className="btn btn-danger px-3 py-2 text-sm font-medium">
                   Request a demo
@@ -61,23 +93,42 @@ function Header(){
         {/* Mobile Menu */}
         <div className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? "block" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            Who We Are
+            </h5>
             <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              Home
+              About us
             </a>
             <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              About
+              Leadership
             </a>
-            <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              Services
+            <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Our Solutions
+            </h5>
+            <a href="/Data-and-Ai" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Data And AI
             </a>
+            <a href="/IT-And-Automation" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              IT and Buisness Automation
+            </a>
+            <a href="/Open-Hybrid-Cloud" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Open Hybrid Cloud
+            </a>
+            <a href="/Security-And-Sustainability" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Security And Sustainability
+            </a>
+            <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Others
+            </h5>
             <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              Contact
+              Careers
             </a>
           </div>
         </div>
       </nav>
-        </>
-    )
+    </>
+  );
 }
+
 
 export default Header;
