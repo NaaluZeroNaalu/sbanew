@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
 body{
 
   /* background-image: url('../src/assets/bg.png'); */
@@ -25,4 +30,59 @@ body{
 .transparent-box {
   background-color: rgba(88, 86, 86, 0.308);  /* Transparent black background */
 }
+
+/* Custom scrolling animation */
+.logo-scroll-container {
+  position: relative;
+  width: 100%; /* Ensure the container takes full width */
+  overflow: hidden; /* Hide anything that overflows the container */
+}
+
+.logo-scroll {
+  display: flex;
+  animation: scroll-left 30s linear infinite; /* Adjust timing for speed */
+}
+
+.company-logo {
+  max-height: 100px; /* Set the height you prefer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-logo img {
+  max-height: 100%; /* Ensures the image doesn't exceed the container's size */
+  max-width: 150px; /* Adjust the width as needed */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0); /* Start at the beginning */
+  }
+  100% {
+    transform: translateX(-100%); /* Move all the way to the left */
+  }
+}
+
+
+
+/* src/CertificationsSlider.css or in your main CSS file */
+.cert-image {
+  width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 400px; /* Set a maximum height */
+  object-fit: contain; /* Preserve image aspect ratio without cropping */
+  display: block;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center; /* Center the content inside the slide */
+}
+
+.slick-dots {
+  bottom: 10px; /* Move the dots up a bit to avoid overlap */
+}
+
 

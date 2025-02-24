@@ -10,6 +10,7 @@ import SecurityandSustainability from './pages/securityandsustainability/securit
 import ItandAutomation from './pages/itandautomation/itandautomatioon'
 import OpendhybridCloud from './pages/openhybridcloud/openhybridcloud'
 import Aboutus from './pages/aboutus/aboutus'
+import Leadership from './pages/leadership/leadership'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/IT-And-Automation" element={<ItandAutomation />} />
         <Route path="/Open-Hybrid-Cloud" element={<OpendhybridCloud />} />
         <Route path="/Aboutus" element={<Aboutus />} />
+        <Route path="/Leadership" element={<Leadership />} />
       </Routes>
     </BrowserRouter>
     </>

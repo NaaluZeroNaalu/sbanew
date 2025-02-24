@@ -89,6 +89,7 @@ function DatandAi(){
 
 {/* SECTION THREE END */}
 
+<hr  className="text-white" />
 
 {/* SECTION FOUR START */}
 
@@ -135,6 +136,28 @@ function DatandAi(){
 
 
 {/* SECTION FOUR END */}
+
+<hr  className="text-white" />
+{/* SECTION FIVE START */}
+
+<section className="container text-center">
+
+ 
+  <div>
+    <h1 className="text-white">Transform your vision into reality</h1>
+  </div>
+  <div>
+    <p className="text-white">Collaborate with us from start to finish and build solutions that deliver results.</p>
+  </div>
+  <div className="">
+    <button className="btn btn-danger">We’re Here to Help</button>
+  </div>
+ 
+</section>
+
+
+{/* SECTION FIVE END */}
+<hr  className="text-white" />
 
         </>
     )

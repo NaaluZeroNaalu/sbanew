@@ -35,10 +35,10 @@ function Header() {
                   <button className="text-white   hover:text-white px-3 py-3 rounded-md text-sm font-medium">
                     Who We Are
                   </button>
-                  <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black shadow-md rounded-md w-60">
-                    <a href="/Aboutus" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
+                  <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black  shadow-md rounded-md w-60">
+                    <a href="/Aboutus" className="block hover:bg-red-600 hover:text-white  px-4 py-2 text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
                     <img src={aboutus} alt="Data and AI" height={50} width={50} className="mr-2" />About Us</a>
-                    <a href="/IT-And-Automation" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
+                    <a href="/Leadership" className=" hover:bg-red-600 hover:text-white  block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
                     <img src={leadership} alt="IT and Business Automation" height={50} width={50} className="mr-2" />
                     Leadership
                    </a>
@@ -51,19 +51,19 @@ function Header() {
                     Our Solutions
                   </button>
                   <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black shadow-md rounded-md w-80">
-    <a href="/Data-and-Ai" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
+    <a href="/Data-and-Ai" className="block px-4 py-2 hover:bg-red-600 hover:text-white text-white flex items-center" style={{ textDecoration: "none", borderBottom:"1px solid white"}}>
       <img src={dataandai} alt="Data and AI" height={50} width={50} className="mr-2" />
       Data and AI
     </a>
-    <a href="/IT-And-Automation" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none",borderBottom:"1px solid white"}}>
+    <a href="/IT-And-Automation" className="block px-4 py-2 hover:bg-red-600 hover:text-white  text-white flex items-center" style={{ textDecoration: "none",borderBottom:"1px solid white"}}>
       <img src={itautomation} alt="IT and Business Automation" height={50} width={50} className="mr-2" />
       IT and Business Automation
     </a>
-    <a href="/Open-Hybrid-Cloud" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none" , borderBottom:"1px solid white"}}>
+    <a href="/Open-Hybrid-Cloud" className="block px-4 py-2 hover:bg-red-600 hover:text-white  text-white flex items-center" style={{ textDecoration: "none" , borderBottom:"1px solid white"}}>
       <img src={openhybridcloud} alt="Open Hybrid Cloud" height={50} width={50} className="mr-2" />
       Open Hybrid Cloud
     </a>
-    <a href="/Security-And-Sustainability" className="block px-4 py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
+    <a href="/Security-And-Sustainability" className="block px-4 hover:bg-red-600 hover:text-white  py-2 text-white flex items-center" style={{ textDecoration: "none"}}>
       <img src={securityandsustainability} alt="Security and Sustainability" height={50} width={50} className="mr-2" />
       Security and Sustainability
     </a>
@@ -100,31 +100,33 @@ function Header() {
             <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Who We Are
             </h5>
-            <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               About us
             </a>
-            <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Leadership
             </a>
+            <hr className="text-white" />
             <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Our Solutions
             </h5>
-            <a href="/Data-and-Ai" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/Data-and-Ai" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Data And AI
             </a>
-            <a href="/IT-And-Automation" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/IT-And-Automation" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               IT and Buisness Automation
             </a>
-            <a href="/Open-Hybrid-Cloud" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/Open-Hybrid-Cloud" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Open Hybrid Cloud
             </a>
-            <a href="/Security-And-Sustainability" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/Security-And-Sustainability" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Security And Sustainability
             </a>
+            <hr className="text-white" />
             <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Others
             </h5>
-            <a href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Careers
             </a>
           </div>

@@ -7,9 +7,13 @@ import paloalto from "../..//assets/trusted_partners/paloalto.png"
 import crowdstrike from "../..//assets/trusted_partners/crowdstrike.png"
 import commvault from "../..//assets/trusted_partners/commvault.png"
 import vmware from "../../assets/trusted_partners/vmware.png"
+import { useEffect, useState } from "react"
 
 
 function Home(){
+
+
+  
 
     return(
 
@@ -65,38 +69,59 @@ function Home(){
 <br /><br />
 
 {/* SECTION THREE START */}
-<div className="section3">
-  <h1 className="text-white text-center mb-4">Trusted By Talent Leaders At</h1>
+<div className="section3 text-center py-5">
+        <h1 className="text-white mb-4">Trusted By Talent Leaders At</h1>
 
-  <div className="container">
-    <div className="scrolling-companies">
-      <div className="d-flex justify-content-around align-items-center">
-        {/* You can replace these with actual logos of companies */}
-        <div className="company-logo">
-          <img src={trendmicro} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={hitachi} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={crowdstrike} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={commvault} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={netapp} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={paloalto} alt="" />
-        </div>
-        <div className="company-logo">
-          <img src={vmware} alt="" />
+        <div className="container">
+          <div className="logo-scroll-container overflow-hidden">
+            <div className="d-flex logo-scroll">
+              <div className="company-logo mx-4">
+                <img src={trendmicro} alt="TrendMicro" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={hitachi} alt="Hitachi" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={crowdstrike} alt="CrowdStrike" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={commvault} alt="CommVault" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={netapp} alt="NetApp" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={paloalto} alt="Palo Alto" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={vmware} alt="VMware" className="img-fluid" />
+              </div>
+              {/* Repeat logos for infinite scrolling */}
+              <div className="company-logo mx-4">
+                <img src={trendmicro} alt="TrendMicro" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={hitachi} alt="Hitachi" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={crowdstrike} alt="CrowdStrike" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={commvault} alt="CommVault" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={netapp} alt="NetApp" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={paloalto} alt="Palo Alto" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={vmware} alt="VMware" className="img-fluid" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 {/* SECTION THREE END */}
 
 <br /><br />
