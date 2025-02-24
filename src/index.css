@@ -31,7 +31,7 @@ body{
   background-color: rgba(88, 86, 86, 0.308);  /* Transparent black background */
 }
 
-/* Custom scrolling animation */
+/* Cust om scrolling animation */
 .logo-scroll-container {
   position: relative;
   width: 100%; /* Ensure the container takes full width */
