@@ -32,7 +32,7 @@ function Header() {
               <div className="ml-10 flex items-baseline space-x-4">
                 {/* Who We Are Dropdown */}
                 <div className="relative group">
-                  <button className="text-white   hover:text-white px-3 py-3 rounded-md text-sm font-medium">
+                  <button onClick={()=>{window.location.href = "/Solutions"}} className="text-white  hover:text-white px-3 py-3 rounded-md text-sm font-medium">
                     Who We Are
                   </button>
                   <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black  shadow-md rounded-md w-60">
@@ -47,7 +47,7 @@ function Header() {
 
                 {/* What We Do Dropdown */}
                 <div className="relative group">
-                  <button className="text-white hover:text-white px-3 py-3 rounded-md text-sm font-medium">
+                  <button onClick={()=>{window.location.href = "/Solutions"}} className="text-white hover:text-white px-3 py-3 rounded-md text-sm font-medium">
                     Our Solutions
                   </button>
                   <div className="absolute hidden group-hover:block bg-black backdrop-blur-md text-black shadow-md rounded-md w-80">

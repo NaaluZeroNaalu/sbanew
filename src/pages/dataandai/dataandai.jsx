@@ -34,7 +34,7 @@ function DatandAi(){
 </section>
 {/* SECTION ONE END */}
 
-
+<br />
 {/* SECTION TWO START */}
 
 <div className="section2">
@@ -53,32 +53,32 @@ function DatandAi(){
   <h2 className="text-4xl font-bold text-center text-white mb-12">Why Choose SBA for Your Data & AI Solutions?</h2>
   <div className="flex flex-wrap justify-center gap-4 p-4">
     {/* Box 1 */}
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-chart-line text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Data Analytics Excellence</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-robot text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">AI-Driven Innovation</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-cogs text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">End-to-End Solutions</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-puzzle-piece text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Customizable Solutions</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-arrow-up text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Scalable and Future-Ready</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
       <i className="fas fa-headset text-4xl text-white mb-4"></i> {/* Icon */}
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Expert Support & Collaboration</h6>
       <p className="text-center">SBA brings deep expertise in data analytics to transform raw data into actionable insights, enabling your business to make informed decisions and drive growth.</p>
@@ -91,6 +91,9 @@ function DatandAi(){
 
 <hr  className="text-white" />
 
+<h1>hello</h1>
+
+<hr  className="text-white" />
 {/* SECTION FOUR START */}
 
 <section className="my-5 py-5 bg-black text-white">
@@ -138,6 +141,8 @@ function DatandAi(){
 {/* SECTION FOUR END */}
 
 <hr  className="text-white" />
+
+
 {/* SECTION FIVE START */}
 
 <section className="container text-center">
