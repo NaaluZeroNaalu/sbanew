@@ -27,10 +27,10 @@ function Home(){
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="text-center md:text-left">
                 <h1 className="text-3xl font-bold text-white mb-4">
-                Open Hybrid Cloud
+                Automate the Mundane
                 </h1>
                 <h4 className="text-xl text-white">
-                Integrated Cloud Services
+                Elevate Human Potential
                 </h4>
               </div>
               <div className="flex justify-center md:justify-end">
@@ -46,6 +46,7 @@ function Home(){
 
 {/* SECTION TWO START */}
 <div className="section2">
+<h1 className="text-white mb-4 text-center">Our Guiding <span className="text-danger">Principles</span></h1>
 <div className="flex flex-wrap justify-center gap-4 p-4">
       {/* Box 1 */}
       <div style={{boxShadow:"1px 1px 10px red"}}  className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
@@ -81,7 +82,7 @@ function Home(){
 
 {/* SECTION THREE START */}
 <div className="section3 text-center py-5">
-        <h1 className="text-white mb-4">Trusted By Talent Leaders At</h1>
+        <h1 className="text-white mb-4">Trusted By <span className="text-danger">Talent Leaders</span> At</h1>
 
         <div className="container">
           <div className="logo-scroll-container overflow-hidden">
@@ -139,7 +140,7 @@ function Home(){
 
 {/* SECTION FOUR START */}
 <div className="section4">
-  <h1 className="text-white text-center">Our Partners Ecosystem</h1>
+  <h1 className="text-white text-center">Our <span className="text-danger">Partners</span> Ecosystem</h1>
   <div className="container">
     {/* Add partner logos or more content here */}
     <p className="text-white text-center">We collaborate with the best in the industry to drive results.</p>

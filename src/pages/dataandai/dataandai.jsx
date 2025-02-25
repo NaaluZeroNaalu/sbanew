@@ -6,7 +6,14 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import dataandai from "./Group.svg"
 import brochure from "./data-ai-brochure.pdf"
 import bg from "./2.png"
-
+import manufacturing from "./manufacturing.gif"
+import banking from "./banking.gif"
+import healthcare from "./healthcare.gif"
+import it from "./it.gif"
+import partner1 from "./one.png"
+import partner2 from "./two.png"
+import partner3 from "./three.png"
+import partner4 from "./four.png"
 
 function DatandAi(){
 
@@ -38,10 +45,31 @@ function DatandAi(){
 {/* SECTION TWO START */}
 
 <div className="section2">
+  <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
   <div className="container">
     {/* Add details about why clients should choose SBA */}
-    <p className="text-white text-center">
-    SBA provides modular and sustainable AI solutions & ML Models    </p>
+
+<div className="section2 bg-black text-white">
+  <h4 className="text-4xl font-bold text-center text-white mb-12">SBA provides modular and sustainable <span className="text-danger">AI solutions & ML Models</span></h4>
+  <div className="flex flex-wrap justify-center gap-4 p-4">
+    {/* Box 1 */}
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+
+      <h6 className="text-xl font-semibold text-center mb-4 text-white">Modular AI Solutions</h6>
+      <p className="text-center">SBA offers flexible and scalable AI solutions that can be tailored to meet the unique needs of businesses, allowing for easy integration and future upgrades.</p>
+    </div>
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+
+      <h6 className="text-xl font-semibold text-center mb-4 text-white">Efficiency & Cost Savings</h6>
+      <p className="text-center">SBA's modular approach promotes efficient use of resources, reducing operational costs while increasing the overall performance of AI and ML systems.</p>
+    </div>
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+
+      <h6 className="text-xl font-semibold text-center mb-4 text-white">Seamless Integration</h6>
+      <p className="text-center">SBA ensures that their AI and ML models are easily integrated with existing systems, minimizing disruption while maximizing operational efficiency.</p>
+    </div>
+  </div>
+</div>
   </div>
 </div>
 {/* SECTION TWO END */}
@@ -50,7 +78,8 @@ function DatandAi(){
 {/* SECTION THREE START */}
 
 <div className="section2 bg-black text-white">
-  <h2 className="text-4xl font-bold text-center text-white mb-12">Why Choose SBA for Your Data & AI Solutions?</h2>
+  <p className="font-bold text-center text-muted mb-12">Our solutions</p>
+  <h2 className="text-4xl font-bold text-center text-white mb-12">Explore Our <span className="text-danger">AI Solutions</span></h2>
   <div className="flex flex-wrap justify-center gap-4 p-4">
     {/* Box 1 */}
     <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
@@ -91,12 +120,34 @@ function DatandAi(){
 
 <hr  className="text-white" />
 
-<h1>hello</h1>
+<div className="section4">
+  <h1 className="text-white text-center">Empowering <span className="text-danger">Your Organization</span> with Smart AI Solutions</h1>
+  <div className="container">
+    {/* Add partner logos or more content here */}
+    <p className="text-white text-center">We collaborate with the best in the industry to drive results.</p>
+    
+  </div>
+  <div className="flex flex-wrap justify-center gap-4 p-4">
+
+      {/* Box 2 */}
+      <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
+        <img src={partner1} alt="" />
+      </div>
+      <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
+        <img src={partner2} alt="" />
+      </div>
+      <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
+        <img src={partner3} alt="" />
+      </div>
+    </div>
+</div>
 
 <hr  className="text-white" />
+
 {/* SECTION FOUR START */}
 
 <section className="my-5 py-5 bg-black text-white">
+<p className="font-bold text-center text-muted mb-12">Unlock The Power Of Data and AI</p>
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
     {/* Left Content */}
     <div className="md:w-1/2 w-full text-center md:text-left">
@@ -142,27 +193,13 @@ function DatandAi(){
 
 <hr  className="text-white" />
 
-
-{/* SECTION FIVE START */}
-
-<section className="container text-center">
-
- 
-  <div>
-    <h1 className="text-white">Transform your vision into reality</h1>
-  </div>
-  <div>
-    <p className="text-white">Collaborate with us from start to finish and build solutions that deliver results.</p>
-  </div>
-  <div className="">
-    <button className="btn btn-danger">We’re Here to Help</button>
-  </div>
- 
+{/* SECTION TEN START */}
+<section className="bg-dark text-white text-center py-12">
+  <h2 className="text-3xl font-bold mb-4">Let’s Start Your AI Journey Today</h2>
+  <p className="text-lg mb-6">Contact us to explore how our AI solutions can transform your business.</p>
+  <button className="btn btn-danger">Contact Us</button>
 </section>
-
-
-{/* SECTION FIVE END */}
-<hr  className="text-white" />
+{/* SECTION TEN END */}
 
         </>
     )
