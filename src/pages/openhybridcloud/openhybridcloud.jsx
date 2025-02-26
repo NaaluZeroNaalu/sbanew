@@ -141,6 +141,58 @@ function OpendhybridCloud(){
       </div>
     </div>
 </div>
+<br /><br />
+<br /><br />
+<section class="bg-gray-900 py-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
+    <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
+    
+    <div class="max-w-4xl bg-gray-800 mx-auto p-8 rounded-xl shadow-xl">
+      <form class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <label for="name" class="text-gray-300">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="Your Name" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+          <div>
+            <label for="email" class="text-gray-300">Email Address</label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Your Email" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <label for="message" class="text-gray-300">Your Message</label>
+          <textarea 
+            id="message" 
+            rows="5" 
+            placeholder="Your Message" 
+            class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+          ></textarea>
+        </div>
+        
+        <div class="mt-8 text-center">
+          <button 
+            type="submit" 
+            class="w-full py-3 px-6 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-500 focus:outline-none transition-all"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
         </>
     )
 }

@@ -51,19 +51,19 @@ function DatandAi(){
 
 <div className="section2 bg-black text-white">
   <h4 className="text-4xl font-bold text-center text-white mb-12">SBA provides modular and sustainable <span className="text-danger">AI solutions & ML Models</span></h4>
-  <div className="flex flex-wrap justify-center gap-4 p-4">
+  <div className="flex flex-wrap justify-center gap-4 p-4" >
     {/* Box 1 */}
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+    <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
 
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Modular AI Solutions</h6>
       <p className="text-center">SBA offers flexible and scalable AI solutions that can be tailored to meet the unique needs of businesses, allowing for easy integration and future upgrades.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+    <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
 
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Efficiency & Cost Savings</h6>
       <p className="text-center">SBA's modular approach promotes efficient use of resources, reducing operational costs while increasing the overall performance of AI and ML systems.</p>
     </div>
-    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
+    <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-50 bg-dark p-6 rounded-lg shadow-md">
 
       <h6 className="text-xl font-semibold text-center mb-4 text-white">Seamless Integration</h6>
       <p className="text-center">SBA ensures that their AI and ML models are easily integrated with existing systems, minimizing disruption while maximizing operational efficiency.</p>
@@ -118,7 +118,7 @@ function DatandAi(){
 
 {/* SECTION THREE END */}
 
-<hr  className="text-white" />
+<br /><br />
 
 <div className="section4">
   <h1 className="text-white text-center">Empowering <span className="text-danger">Your Organization</span> with Smart AI Solutions</h1>
@@ -132,6 +132,7 @@ function DatandAi(){
       {/* Box 2 */}
       <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
         <img src={partner1} alt="" />
+        {/* <p className="text-light text-center">Instana</p> */}
       </div>
       <div style={{boxShadow:"1px 1px 10px red"}} className="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 bg-opacity-30 bg-gray-300 p-6 rounded-lg shadow-md transparent-box">
         <img src={partner2} alt="" />
@@ -142,7 +143,7 @@ function DatandAi(){
     </div>
 </div>
 
-<hr  className="text-white" />
+<br /><br />
 
 {/* SECTION FOUR START */}
 
@@ -194,12 +195,64 @@ function DatandAi(){
 <hr  className="text-white" />
 
 {/* SECTION TEN START */}
-<section className="bg-dark text-white text-center py-12">
+<section className="bg-gray-800 text-white text-center py-12">
   <h2 className="text-3xl font-bold mb-4">Let’s Start Your AI Journey Today</h2>
   <p className="text-lg mb-6">Contact us to explore how our AI solutions can transform your business.</p>
   <button className="btn btn-danger">Contact Us</button>
 </section>
 {/* SECTION TEN END */}
+
+<br /><br />
+<section class="bg-gray-900 py-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
+    <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
+    
+    <div class="max-w-4xl bg-gray-800 mx-auto p-8 rounded-xl shadow-xl">
+      <form class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <label for="name" class="text-gray-300">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="Your Name" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+          <div>
+            <label for="email" class="text-gray-300">Email Address</label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Your Email" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <label for="message" class="text-gray-300">Your Message</label>
+          <textarea 
+            id="message" 
+            rows="5" 
+            placeholder="Your Message" 
+            class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+          ></textarea>
+        </div>
+        
+        <div class="mt-8 text-center">
+          <button 
+            type="submit" 
+            class="w-full py-3 px-6 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-500 focus:outline-none transition-all"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
         </>
     )

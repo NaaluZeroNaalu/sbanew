@@ -73,7 +73,7 @@ function Header() {
 
                 {/* Other Menu Items */}
                
-                <a href="#" className="text-white hover:bg-red-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
+                <a href="/careers" className="text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
                   Careers
                 </a>
                 <a href="#" className="btn btn-danger px-3 py-2 text-sm font-medium">
