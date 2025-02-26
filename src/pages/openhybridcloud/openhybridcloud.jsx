@@ -34,6 +34,14 @@ function OpendhybridCloud(){
 
         <br /><br />
 
+<div  class=" mt-16 p-12 rounded-xl" >
+      {/* <h3 class="text-3xl font-semibold text-white mb-6 text-center">Ready to Apply?</h3> */}
+<p class="text-lg text-gray-300 mb-8 text-center">
+SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine private and public cloud environments to optimize your business operations. By leveraging both cloud infrastructures, we help you manage data and applications more efficiently, ensuring flexibility, scalability, and security. With SBA's Hybrid Cloud solutions, you can store sensitive data on private clouds while using public clouds for cost-effective, dynamic workloads. This integration provides your business with the flexibility to adapt to changing needs and ensures optimal performance across your infrastructure.
+</p>
+</div>
+        <br /><br />
+
         <div className="section2">
   <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
   <div className="container">

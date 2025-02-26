@@ -33,17 +33,20 @@ function SecurityandSustainability(){
         {/* SECTION ONE END */}
 
 
+<br /><br />
 {/* SECTION TWO START */}
 
 <div className="section2">
   <div className="container">
     {/* Add details about why clients should choose SBA */}
     <p className="text-white text-center">
-    SBA empowers enterprises to Safeguard data, reduce environmental impact, and optimize operations with IBM LinuxONE.</p>
+    At SBA Info Solution, we integrate Security and Sustainability into all our solutions to ensure a secure and responsible business environment. Our advanced, multi-layered security measures protect your data and infrastructure with real-time threat detection, automated responses, and compliance with industry standards. Simultaneously, we are committed to sustainability by implementing energy-efficient technologies and eco-friendly practices, helping your business reduce its carbon footprint. By optimizing resource usage and promoting green cloud infrastructure, we support your sustainability goals while ensuring your business remains secure and competitive.
+    </p>  
   </div>
 </div>
 {/* SECTION TWO END */}
 
+<br /><br />
 <div className="section2">
   <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
   <div className="container">

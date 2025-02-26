@@ -32,6 +32,14 @@ function ItandAutomation(){
 
 <br /><br />  
 
+<div  class=" mt-16 p-12 rounded-xl" >
+      {/* <h3 class="text-3xl font-semibold text-white mb-6 text-center">Ready to Apply?</h3> */}
+<p class="text-lg text-gray-300 mb-8 text-center">
+At SBA Info Solution, we provide advanced AI solutions to enhance your business operations. Our expert team uses reliable AI technologies to streamline processes, improve decision-making, and fuel growth. We offer customized AI services that are designed to meet your business's specific needs, ensuring efficiency and scalability. Partner with us to leverage AI and transform your business into a smarter, more competitive organization.</p>
+
+</div>
+<br /><br />  
+
 <div className="section2">
   <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
   <div className="container">
