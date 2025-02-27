@@ -260,15 +260,7 @@ function Home(){
 
 {/* SECTION SIX END */}
 
-<br /><br />
 
-{/* FOOTER SECTION */}
-<div className="footer">
-  <footer className="text-center text-white py-4">
-    <p>&copy; 2025 SBA. All Rights Reserved. | <a href="#privacy-policy" className="text-white">Privacy Policy</a></p>
-  </footer>
-</div>
-{/* FOOTER SECTION END */}
 
 
         </>

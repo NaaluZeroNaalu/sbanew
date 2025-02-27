@@ -5,32 +5,101 @@ function Footer(){
     return(
         <>
 
-<footer className="bg-black text-white py-6">
-  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center md:items-start">
-
-    <div className="flex flex-col md:flex-row items-center md:items-start mb-4 md:mb-0">
-      <div className="text-xl font-semibold text-white">SBA Solutions</div>
+<footer class="relative w-full  bg-dark text-white">
+  <br />
+  <div class="w-full px-8 mx-auto max-w-7xl">
+    <div class="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
+      <h5 class="mb-6 text-xl font-semibold text-white">
+        SBA Info Solutions
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.988767516827!2d80.21310177454757!3d13.03638681345565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e1fecbc9db%3A0x792c9b430ee8bd4a!2sSBA%20Info%20Solutions%20Private%20Limited!5e0!3m2!1sen!2sin!4v1740636793482!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+      </h5>
+      <div class="grid justify-between grid-cols-3 gap-4">
+        <ul>
+          <h5 class="block mb-1 text-base font-semibold text-white" >
+            Who we are
+          </h5>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Our Leadership
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <h5 class="block mb-1 text-base font-semibold text-white">
+            Solutions
+          </h5>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Data and AI
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              IT and Business Automation
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Open Hybrid Cloud
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Security and Sustainability
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <h5 class="block mb-1 text-base font-semibold text-white">
+            Resources
+          </h5>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Newsletter
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Events
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-light py-1 hover:text-white focus:text-white text-sm" style={{textDecoration:"none"}}>
+              Help Center
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div className="flex flex-col md:flex-row gap-6 mb-4 md:mb-0 items-center md:items-start">
-      <a href="#services" className="text-white hover:text-white transition duration-300" style={{ textDecoration: "none" }}>Who we are</a>
-      <a href="#about" className="text-white hover:text-white transition duration-300" style={{ textDecoration: "none" }}>Solutions</a>
-      <a href="#contact" className="text-white hover:text-white transition duration-300" style={{ textDecoration: "none" }}>Careers</a>
-      <a href="#privacy" className="text-white hover:text-white transition duration-300" style={{ textDecoration: "none" }}>About Us</a>
-    </div>
-
-    <div className="flex gap-6 mt-4 md:mt-0">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-linkedin text-2xl text-gray-400 hover:text-blue-600 transition duration-300"></i>
-      </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-youtube text-2xl text-gray-400 hover:text-red-600 transition duration-300"></i>
-      </a>
+    <div class="flex flex-col items-center justify-center w-full py-4 mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      <p class="block mb-4 text-sm text-center text-gray-400 md:mb-0">
+        Copyright © 2025 All Rights Reserved.
+      </p>
+      <div class="flex gap-4 text-gray-400 sm:justify-center">
+        <a class="block transition-opacity text-inherit hover:opacity-80" style={{textDecoration:"none"}}>
+          <p className="text-light">Connect With Us</p>
+        </a>
+        <a href="#" class="block text-light transition-opacity text-inherit hover:opacity-80">
+        <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="block text-light transition-opacity text-inherit hover:opacity-80">
+        <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
     </div>
   </div>
-
-  <p className="text-center text-gray-400 text-sm mt-2 md:ml-4 md:mt-0">© {new Date().getFullYear()} SBA Solutions. All rights reserved.</p>
 </footer>
+
 
         </>
     )
