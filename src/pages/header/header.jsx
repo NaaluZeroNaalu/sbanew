@@ -76,7 +76,7 @@ function Header() {
                 <a href="/careers" className="text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium" style={{ textDecoration: "none" }}>
                   Careers
                 </a>
-                <a href="#" className="btn btn-danger px-3 py-2 text-sm font-medium">
+                <a href="/Contact-us" className="btn btn-danger px-3 py-2 text-sm font-medium">
                   Request a demo
                 </a>
               </div>
@@ -100,10 +100,10 @@ function Header() {
             <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Who We Are
             </h5>
-            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/Aboutus" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               About us
             </a>
-            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/Leadership" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Leadership
             </a>
             <hr className="text-white" />
@@ -126,8 +126,11 @@ function Header() {
             <h5 href="#" className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Others
             </h5>
-            <a href="#" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            <a href="/careers" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Careers
+            </a>
+            <a href="/Contact-us" style={{textDecoration:"none"}} className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              Help
             </a>
           </div>
         </div>

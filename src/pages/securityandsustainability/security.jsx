@@ -36,6 +36,12 @@ function SecurityandSustainability(){
 <br /><br />
 {/* SECTION TWO START */}
 
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Outcomes</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
+<br />
 <div className="section2">
   <div className="container">
     {/* Add details about why clients should choose SBA */}
@@ -46,13 +52,20 @@ function SecurityandSustainability(){
 </div>
 {/* SECTION TWO END */}
 
-<br /><br />
+
 <div className="section2">
-  <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
+  
+  {/* <p className="font-bold text-center text-muted mb-12">Why Choose Us</p> */}
   <div className="container">
     {/* Add details about why clients should choose SBA */}
-
+<br /><br />  
 <div className="section2 bg-black text-white">
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 my-4"></div>
+  <h5 className="mx-4 text-base sm:text-xl md:text-1xl font-semibold">Why Choose Us</h5>
+  <div className="border-t border-b border-gray-300 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 my-4"></div>
+</div>
+<br />
   <h4 className="text-4xl font-bold text-center text-white mb-12">SBA provides modular and sustainable <span className="text-danger">AI solutions & ML Models</span></h4>
   <div className="flex flex-wrap justify-center gap-4 p-4">
     {/* Box 1 */}
@@ -77,10 +90,17 @@ function SecurityandSustainability(){
 </div>
 
 
+<br /><br />
 {/* SECTION THREE START*/}
 
 
 <div className="section2 bg-black text-white">
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl  font-semibold">Our Solutions</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
+<br />
   <h2 className="text-4xl font-bold text-center text-white mb-12">Why Choose SBA for Your Security & Sustainability Solutions?</h2>
   <div className="flex flex-wrap justify-center gap-4 p-4">
     {/* Box 1 */}
@@ -129,8 +149,15 @@ function SecurityandSustainability(){
 
 {/* SECTION THREE END */}
 
+
 <br /><br />
 <div className="section4">
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-light text-xl  font-semibold">Protecting Your Buisness with Best Tools</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
+<br />
   <h1 className="text-white text-center">Protecting <span className="text-danger">Your Business</span> with Leading-Edge Security Solutions</h1>
   <div className="container">
     {/* Add partner logos or more content here */}
@@ -151,7 +178,7 @@ function SecurityandSustainability(){
 </div>
 
 <br /><br />
-<section class="bg-gray-900 py-20">
+<section class="bg-dark py-20">
   <div class="container mx-auto text-center">
     <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
     <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
@@ -200,7 +227,15 @@ function SecurityandSustainability(){
       </form>
     </div>
   </div>
+
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
 </section>
+
 
         </>
     )

@@ -7,6 +7,16 @@ import paloalto from "../..//assets/trusted_partners/paloalto.png"
 import crowdstrike from "../..//assets/trusted_partners/crowdstrike.png"
 import commvault from "../..//assets/trusted_partners/commvault.png"
 import vmware from "../../assets/trusted_partners/vmware.png"
+import delphi from "../../assets/trusted_partners/delphi.png"
+import finance from "../../assets/trusted_partners/finance.png"
+import housing from "../../assets/trusted_partners/housing.png"
+import hyundai from "../../assets/trusted_partners/hyundai.png"
+import indianbank from "../../assets/trusted_partners/indianbank.png"
+import iob from "../../assets/trusted_partners/iob.png"
+import taab from "../../assets/trusted_partners/taab.png"
+import tafe from "../../assets/trusted_partners/tafe.png"
+import tvs from "../../assets/trusted_partners/tvs.png"
+import will from "../../assets/trusted_partners/wil.png"
 import { useEffect, useState } from "react"
 import section1 from "./section1.gif"
 import bg from "./bg.png"
@@ -44,6 +54,8 @@ function Home(){
 
 <br /><br />
 
+
+
 {/* SECTION TWO START */}
 <div className="section2">
 <h1 className="text-white mb-4 text-center">Our Guiding <span className="text-danger">Principles</span></h1>
@@ -79,7 +91,7 @@ function Home(){
 
 
 <br /><br />
-
+<hr className="text-light" />
 {/* SECTION THREE START */}
 <div className="section3 text-center py-5">
         <h1 className="text-white mb-4">Trusted By <span className="text-danger">Talent Leaders</span> At</h1>
@@ -128,8 +140,77 @@ function Home(){
                 <img src={paloalto} alt="Palo Alto" className="img-fluid" />
               </div>
               <div className="company-logo mx-4">
+                <img src={delphi} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={finance} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={housing} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={hyundai} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={indianbank} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={iob} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={taab} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={tafe} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={tvs} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={will} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
                 <img src={vmware} alt="VMware" className="img-fluid" />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<div className="section3 text-center py-5">
+        <div className="container">
+          <div className="logo-scroll-container overflow-hidden">
+            <div className="d-flex logo-scroll">
+              <div className="company-logo mx-4">
+                <img src={delphi} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={finance} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={housing} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={hyundai} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={indianbank} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={iob} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={taab} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={tafe} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={tvs} alt="VMware" className="img-fluid" />
+              </div>
+              <div className="company-logo mx-4">
+                <img src={will} alt="VMware" className="img-fluid" />
+              </div>
+
             </div>
           </div>
         </div>
@@ -137,7 +218,7 @@ function Home(){
 {/* SECTION THREE END */}
 
 <br /><br />
-
+<hr className="text-light" />
 {/* SECTION FOUR START */}
 <div className="section4">
   <h1 className="text-white text-center">Our <span className="text-danger">Partners</span> Ecosystem</h1>
@@ -207,7 +288,7 @@ function Home(){
 {/* SECTION SIX START */}
 
 <br /><br />
-<section class="bg-gray-900 py-20">
+<section class="bg-dark py-20">
   <div class="container mx-auto text-center">
     <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
     <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
@@ -256,6 +337,13 @@ function Home(){
       </form>
     </div>
   </div>
+
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
 </section>
 
 {/* SECTION SIX END */}

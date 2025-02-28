@@ -96,12 +96,14 @@ function Aboutus(){
 
 <br /><br />
 
-<div className="container">
-  <h4 className="text-xl text-white text-left leading-relaxed">
+<div className="section2">
+  <div className="container">
+    {/* Add details about why clients should choose SBA */}
+    <p className="text-white text-center">
     At SBA Info Solutions, we empower your businesses to innovate, streamline operations, and achieve sustainable growth while optimizing costs. By leveraging our deep industry knowledge, data-driven insights, and advanced AI solutions, we help you unlock the full potential of your resources and create a future-ready business model. Our mission is to drive long-term success and ensure your investment delivers maximum value.
-  </h4>
+    </p>  
+  </div>
 </div>
-
 
 <br /><br />
 
@@ -154,7 +156,13 @@ function Aboutus(){
 
 {/* SECTIONS */}
 
-<hr />
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
+<br /><br />
 
 {/* SECTION FIVE START */}
 
@@ -172,24 +180,66 @@ function Aboutus(){
 </div>
 
 {/* SECTION FIVE END */}
+<br /><br />
 
-<hr />
-
-{/* SECTION SIX START */}
-
-<div className=" mx-auto px-4 bg-gray-800 py-8 rounded-lg shadow-lg">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-    <div className="text-center md:text-left text-white">
-      <h1 className="text-xl font-bold">Turning Vision Into Reality</h1>
-      <p className="text-xl mb-4">Book a 30-minute consultation to find the best strategy for your business.</p>
-    </div>
-    <div className="flex justify-center md:justify-end">
-      <button className="btn btn-dark py-3 px-6 rounded-lg text-white font-semibold shadow-lg hover:bg-blue-600 transition-all duration-300">Book a Meeting</button>
+<section class="bg-dark py-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
+    <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
+    
+    <div class="max-w-4xl bg-gray-800 mx-auto p-8 rounded-xl shadow-xl">
+      <form class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <label for="name" class="text-gray-300">Name</label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="Your Name" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+          <div>
+            <label for="email" class="text-gray-300">Email Address</label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Your Email" 
+              class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+            />
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <label for="message" class="text-gray-300">Your Message</label>
+          <textarea 
+            id="message" 
+            rows="5" 
+            placeholder="Your Message" 
+            class="w-full p-4 rounded-lg border-2 border-gray-700 bg-gray-900 text-white focus:outline-none focus:ring-2 focus:ring-white transition-all"
+          ></textarea>
+        </div>
+        
+        <div class="mt-8 text-center">
+          <button 
+            type="submit" 
+            class="w-full py-3 px-6 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-500 focus:outline-none transition-all"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
     </div>
   </div>
-</div>
 
-{/* SECTION SIX END */}
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
+</section>
+
 
         </>
     )

@@ -12,6 +12,8 @@ import OpendhybridCloud from './pages/openhybridcloud/openhybridcloud'
 import Aboutus from './pages/aboutus/aboutus'
 import Leadership from './pages/leadership/leadership'
 import Solutions from './pages/formobile/solutions'
+import Contact from './pages/contactus/contact'
+import Notfound from './pages/notfound/notfound'
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
+        <Route path="*" element={<Notfound />} />
         <Route path="/" element={<Home />} />
         <Route path="/careers" element={<Carrers />} />
         <Route path="/Data-and-Ai" element={<DatandAi />} />
@@ -30,6 +33,7 @@ function App() {
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/Leadership" element={<Leadership />} />
         <Route path="/Solutions" element={<Solutions />} />
+        <Route path="/Contact-us" element={<Contact />} />
       </Routes>
     </BrowserRouter>
     </>

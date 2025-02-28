@@ -40,7 +40,7 @@ body{
 }
 
 .company-logo {
-  max-height: 100px; /* Set the height you prefer */
+  max-height: 600px; /* Set the height you prefer */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,9 +64,9 @@ body{
 
 /* src/CertificationsSlider.css or in your main CSS file */
 .cert-image {
-  width: 100%; /* Ensure the image is responsive */
+  width: 300px; /* Ensure the image is responsive */
   height: auto; /* Maintain the aspect ratio */
-  max-height: 300px; /* Set a maximum height */
+  max-height: 400px; /* Set a maximum height */
   object-fit: contain; /* Preserve image aspect ratio without cropping */
   display: block;
   margin: 0 auto;

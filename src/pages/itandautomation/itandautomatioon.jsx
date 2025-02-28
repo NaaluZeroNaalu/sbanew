@@ -31,8 +31,12 @@ function ItandAutomation(){
 {/* SECTION ONE END */}
 
 <br /><br />  
-
-<div  class=" mt-16 p-12 rounded-xl" >
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Outcomes</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
+<div  class="  p-12 rounded-xl" >
       {/* <h3 class="text-3xl font-semibold text-white mb-6 text-center">Ready to Apply?</h3> */}
 <p class="text-lg text-gray-300 mb-8 text-center">
 At SBA Info Solution, we provide advanced AI solutions to enhance your business operations. Our expert team uses reliable AI technologies to streamline processes, improve decision-making, and fuel growth. We offer customized AI services that are designed to meet your business's specific needs, ensuring efficiency and scalability. Partner with us to leverage AI and transform your business into a smarter, more competitive organization.</p>
@@ -41,7 +45,11 @@ At SBA Info Solution, we provide advanced AI solutions to enhance your business 
 <br /><br />  
 
 <div className="section2">
-  <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Why Choose us</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
   <div className="container">
     {/* Add details about why clients should choose SBA */}
 
@@ -73,7 +81,12 @@ At SBA Info Solution, we provide advanced AI solutions to enhance your business 
 {/* SECTION THREE START */}
 
 <div className="section2 bg-black text-white">
-<p className="font-bold text-center text-muted mb-12">Our solutions</p>
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl  font-semibold">Our Solutions</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
+{/* <p className="font-bold text-center text-muted mb-12">Our solutions</p> */}
 <br />
   <h2 className="text-4xl font-bold text-center text-white mb-12">Why Choose SBA for Your <span className="text-danger">IT & Automation Solutions?</span></h2>
   <div className="flex flex-wrap justify-center gap-4 p-4">
@@ -127,6 +140,11 @@ At SBA Info Solution, we provide advanced AI solutions to enhance your business 
 {/* SECTION THREE END */}
 
 <div className="section4">
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Leading IT Automation with the Best Tools</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
   <h1 className="text-white text-center">Leading IT Automation with<span className="text-danger"> Industry-Leading Tools</span></h1>
   <div className="container">
     {/* Add partner logos or more content here */}
@@ -154,7 +172,7 @@ At SBA Info Solution, we provide advanced AI solutions to enhance your business 
 
 <br /><br />
 <br /><br />
-<section class="bg-gray-900 py-20">
+<section class="bg-dark py-20">
   <div class="container mx-auto text-center">
     <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
     <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
@@ -203,8 +221,14 @@ At SBA Info Solution, we provide advanced AI solutions to enhance your business 
       </form>
     </div>
   </div>
-</section>
 
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
+</section>
 
         </>
     )

@@ -33,8 +33,12 @@ function OpendhybridCloud(){
 
 
         <br /><br />
-
-<div  class=" mt-16 p-12 rounded-xl" >
+        <div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Outcomes</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>  
+<div  class=" p-12 rounded-xl" >
       {/* <h3 class="text-3xl font-semibold text-white mb-6 text-center">Ready to Apply?</h3> */}
 <p class="text-lg text-gray-300 mb-8 text-center">
 SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine private and public cloud environments to optimize your business operations. By leveraging both cloud infrastructures, we help you manage data and applications more efficiently, ensuring flexibility, scalability, and security. With SBA's Hybrid Cloud solutions, you can store sensitive data on private clouds while using public clouds for cost-effective, dynamic workloads. This integration provides your business with the flexibility to adapt to changing needs and ensures optimal performance across your infrastructure.
@@ -43,7 +47,11 @@ SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine privat
         <br /><br />
 
         <div className="section2">
-  <p className="font-bold text-center text-muted mb-12">Why Choose Us</p>
+        <div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Why Choose us</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
   <div className="container">
     {/* Add details about why clients should choose SBA */}
 
@@ -74,9 +82,14 @@ SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine privat
         <br /><br />
 
         {/* SECTION THREE START */}
-        <p className="font-bold text-center text-muted mb-12">Our solutions</p>
+        {/* <p className="font-bold text-center text-muted mb-12">Our solutions</p> */}
 
         <div className="section2 bg-black text-white">
+        <div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Our solutions</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
   <h2 className="text-4xl font-bold text-center text-white mb-12">Why Choose SBA for Your Open Hybrid Cloud Solutions?</h2>
   <div className="flex flex-wrap justify-center gap-4 p-4">
     {/* Box 1 */}
@@ -129,6 +142,11 @@ SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine privat
 <br /><br />
 
 <div className="section4">
+<div className="flex items-center justify-center">
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+  <h5 className="mx-4 text-xl text-light font-semibold">Our Tools</h5>
+  <div className="border-t border-b border-gray-300 w-1/3 my-4"></div>
+</div>
   <h1 className="text-white text-center">Powering <span className="text-danger">Hybrid Cloud</span>  with Cutting-Edge Technologies</h1>
   <div className="container">
     {/* Add partner logos or more content here */}
@@ -150,8 +168,8 @@ SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine privat
     </div>
 </div>
 <br /><br />
-<br /><br />
-<section class="bg-gray-900 py-20">
+
+<section class="bg-dark py-20">
   <div class="container mx-auto text-center">
     <h2 class="text-4xl font-semibold text-white mb-6">Contact Us</h2>
     <p class="text-lg text-white mb-8">We'd love to hear from you! Get in touch with us for any inquiries or feedback.</p>
@@ -200,7 +218,15 @@ SBA Info Solution offers cutting-edge Hybrid Cloud solutions that combine privat
       </form>
     </div>
   </div>
+
+<div className="w-full mx-auto max-w-7xl">
+
+<div class="flex flex-col items-center justify-center w-full mt-12 border-t border-gray-700 md:flex-row md:justify-between">
+      
+</div>
+</div>
 </section>
+
         </>
     )
 }
